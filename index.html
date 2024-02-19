@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Parallax</title>
+
+        <link rel="stylesheet" href="css/main.css">
+
+        <!-- libs should be registered in app.js -->
+        <script src="libs/gsap/gsap.min.js" defer="defer"></script>
+        <script src="libs/gsap/ScrollTrigger.min.js" defer="defer"></script>
+        <script src="libs/gsap/ScrollSmoother.min.js" defer="defer"></script>
+
+        <script src="js/app.js" defer="defer"></script>
+
+    </head>
+    <body>
+
+        <div class="wrapper">
+            <div class="content">
+                <header class="main-header">
+                    <div class="layers">
+                        <div class="layer__head">
+                            <div class="layers__caption">Welcome to</div>
+                            <div class="layers__title">Fairy Forest</div>
+                        </div>
+                        <div
+                            class="layer layers__base"
+                            style="background-image: url(img/layer-base.png);"></div>
+                        <div
+                            class="layer layers__middle"
+                            style="background-image: url(img/layer-middle.png);"></div>
+                        <div
+                            class="layer layers__front"
+                            style="background-image: url(img/layer-front.png);"></div>
+                    </div>
+                </header>
+
+                <article class="main-article" style="background-image: url(img/dungeon.jpg);">
+                    <div class="main-article__content">
+                        <h2 class="main-article__header">To be continued</h2>
+                        <p class="main-article__paragraph">Deep within the heart of the enchanted Fairy
+                            Forest lies a mysterious and captivating place.
+                            Hidden beneath the ancient roots of towering trees, this subterranean realm is
+                            veiled in an ethereal glow, illuminated by luminescent fungi.
+                        </p>
+                    </div>
+                    <div class="copy">© Guram WebDeveloper</div>
+                </article>
+            </div>
+        </div>
+
+    </body>
+</html>
